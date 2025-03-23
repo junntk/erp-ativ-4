@@ -3,6 +3,7 @@ from faker import Faker
 import random
 import datetime
 
+
 # Gerar dados fake
 def generate_brazilian_phone():
     ddd = random.choice(["11", "21", "31", "41", "51", "61", "71", "81", "91"])
@@ -96,3 +97,4 @@ def populate_fake_data():
 drop_tables()
 create_database()
 populate_fake_data()
+
